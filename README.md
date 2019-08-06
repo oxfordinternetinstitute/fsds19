@@ -1,4 +1,4 @@
-﻿# Fundamentals of Social Data Science - 
+﻿# Fundamentals of Social Data Science
 ## MSc in Social Data Science - Unviersity of Oxford, Michaelmas 2019 
 
 This is the course repository for the introductory python course in Oxford's [Social Data Science program](https://www.oii.ox.ac.uk/study/msc-in-social-data-science/). 
@@ -10,24 +10,20 @@ Data science is an emerging discipline concerned with the processing and managem
 This course only goes into very rudimentary detail on theory and analysis. Theory in our degree program is taught through the course "Foundations of Social Data Science". Analysis is partially taught with a focus on descriptives. Undoubtedly, a degree in data science is steeped in statistics. However, in this course statistics are used sparingly. Instead, they are taught in depth in two separate courses: _Statistics for Social Data Science_ and _Intro to Machine Learning_. 
 
 ### The repository 
-This is the repository for 2018-2019 course, which consists of four main folders: 
+This is the repository for 2018-2019 course, which consists of three main folders: 
 - course work, 
 - assignments,
-- supplementary data (public),
-- supplementeary data (withheld). 
+- supplementary data (public).
 
-The latter one is really just more data that should be in the supplementary data folder but for licensing reasons we will not be sharing that data in a public GitHub repository. In the case of the database of tweets, this is unavoidable as per the licensing agreement for use of the Twitter API is not to share tweets collected. 
-
-## About this course. 
+## About this course
 Some of the information about programming in the course is partial. It's not meant to be incorrect, but we are definitely omitting or papering over certain topics for brevity's sake. The goal here is to get people the skills and wisdom to put a study together for analysis and publication. In that sense, this course is a little more directed but also more concise than a repository such as Jake Vanderplas' [Python for Data Science](https://github.com/jakevdp/PythonDataScienceHandbook). Jake's repository, by contrast appears to be much closer to emphasizing completeness. For what it is worth, both this course and Jake's book benefit from prior knowledge of Python as found in the Whirlwind tour of Python, which can be found as a series of Python notebooks [over at GitHub](https://github.com/jakevdp/WhirlwindTourOfPython/). 
 
-You will also notice various Muppet-themed examples throughout the course. This is because as a television show, Muppets offer an extensive amount of accessible data, from episode guides to wikipedia profiles on characters. This can help give is a flavor for high dimensional data while steer a little clear of some complex theoretical issues that are sure to arise in a more focused and sustained project.
+You will also notice various Muppet-themed examples throughout the course. As a television show, The Muppets offer an extensive amount of accessible data, from episode guides to wikipedia profiles on characters. This can help give is a flavor for high dimensional data while steer a little clear of some complex theoretical issues that are sure to arise in a more focused and sustained project.
 
 ### How to run these files 
-The course is written almost entirely in Jupyter notebooks. We recommend downloading the [Anaconda package for scientific python](https://www.anaconda.com/download/), installing it and then launching the Anaconda Navigator. This navigator provides access to a host of scientific programming tools and particularly to JupyterLab. Run Jupyter lab and then navigate to a folder that includes the .ipynb files.  
+The course is written almost entirely in Jupyter notebooks. We recommend downloading the [Anaconda package for scientific python](https://www.anaconda.com/download/), installing it and then launching the Anaconda Navigator. This navigator provides access to a host of scientific programming tools and particularly to Jupyte rLab. Run Jupyter lab and then navigate to a folder that includes the ```.ipynb``` files.  
 
-### Running this course in a browser
-Python notebooks can be run directly in the browser using Google Collab. To do this, simply get a url from a notebook page, such as github.com/oxfordinternetinstitute/sds-python/blob/master/Course_Material/Week_0/PySDS_week0_lecture1.ipynb Then, where it says github.com replace this with: https://colab.research.google.com/github so you would navigate to: https://colab.research.google.com/github/oxfordinternetinstitute/sds-python/blob/master/Course_Material/Week_0/PySDS_week0_lecture1.ipynb in order to run that page in the browser. That being said, we think simply cloning or downloading the notebooks and then running Jupyter Lab (from the Anaconda Navigator) is the most straightforward and reliable way to run the code. 
+If you do not have Jupyter Lab installed, then you can just click on the files in GitHub which will render them. They will not be interative but you will still be able to read them.
 
 # Readings
 ## Core Texts
@@ -50,19 +46,19 @@ Van Der Plas. 2016. Python Data Science Handbook. Sebastopol, CA: O’Reilly Pre
 
 ## Useful code repositories and URLs
 
-Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/ 
+- Data Science Handbook: https://jakevdp.github.io/PythonDataScienceHandbook/ 
 
-Seaborn: https://seaborn.pydata.org 
+- Seaborn: https://seaborn.pydata.org 
 
-Bokeh: https://github.com/bokeh/bokeh-notebooks 
+- Bokeh: https://github.com/bokeh/bokeh-notebooks 
 
-Geopandas: http://geopandas.org 
+- Geopandas: http://geopandas.org 
 
-BeautifulSoup: https://www.crummy.com/software/BeautifulSoup/bs4/doc/ 
+- BeautifulSoup: https://www.crummy.com/software/BeautifulSoup/bs4/doc/ 
 
-NetworkX: https://networkx.github.io  
+- NetworkX: https://networkx.github.io  
 
-Markdown: https://daringfireball.net/projects/markdown/syntax  
+- Markdown: https://daringfireball.net/projects/markdown/syntax  
 
 # Course Outline 
 
@@ -79,4 +75,4 @@ The DataFrame is an indispensable part of data science research in Python. This 
 This week we learn about ways in which to clean, reshape, and explore data. We will parse files, explore visualisation, and take data that is skewed and rescale it so that we can make more sense of it. 
 
 ## Week 4. Collecting Data from the Web 
-Sometimes the web is a source of data for your research design. Sometimes it is simply the place where data is stored that you want to download. Approaches to collecting this data represent different relationships between the researcher and the data controller. Some approaches suggest a dialogue with the data controller, while others suggest a more observational approach. This week merely scratches the surface of what’s possible in either circumstance. 
+Sometimes the web is a direct source of data for your research design. Sometimes it is simply the place where data is stored that you want to download. Approaches to collecting this data represent different relationships between the researcher and the data controller. Some approaches suggest a dialogue with the data controller (through registration, budgeted queries, authentication, etc.), while other approaches suggest a more passive approach of just downloading what is given. This week merely scratches the surface of what’s possible in either circumstance, but provides some means to understand how to authenticate for a data repository and how to work on a server for continuous uptime. 
