@@ -3,25 +3,27 @@
 
 This is the course repository for the introductory python course in Oxford's [Social Data Science program](https://www.oii.ox.ac.uk/study/msc-in-social-data-science/). 
 
-This teaches some of the skills needed to begin working in soical data science. This focuses first on programming skills in python. It includes some key basic programming skills, such as lists and functions, as well as more abstract and complex topics like API access, file types, text processing and dataFrames. 
+This teaches some of the skills needed to begin working in social data science. This focuses first on programming skills in Python. It includes some key basic programming skills, such as lists and functions, as well as more abstract and complex topics like API access, file types, text processing, and DataFrames. 
 
-Data science is an emerging discipline concerned with the processing and management of data. Because data is now so prevalent, complex and volumous there is a niche for those with specific skills in data processing. Data science has four pillars: theory, data access, data wrangling and data analysis. 
+Data science is an emerging discipline concerned with the processing and management of data. Because data is now so prevalent, complex, and volumous, there is a niche for those with specific skills in data processing. Data science has four pillars: theory, data access, data wrangling and data analysis. 
 
 This course only goes into very rudimentary detail on theory and analysis. Theory in our degree program is taught through the course "Foundations of Social Data Science". Analysis is partially taught with a focus on descriptives. Undoubtedly, a degree in data science is steeped in statistics. However, in this course statistics are used sparingly. Instead, they are taught in depth in two separate courses: _Statistics for Social Data Science_ and _Intro to Machine Learning_. 
 
 ### The repository 
-This is the repository for 2018-2019 course, which consists of three main folders: 
+This is the repository for 2019-2020 course, which consists of three main folders: 
 - course work, 
 - assignments,
 - supplementary data (public).
+These will be created and populated as time goes on and fully released once the course has completed. 
+
 
 ## About this course
-Some of the information about programming in the course is partial. It's not meant to be incorrect, but we are definitely omitting or papering over certain topics for brevity's sake. The goal here is to get people the skills and wisdom to put a study together for analysis and publication. In that sense, this course is a little more directed but also more concise than a repository such as Jake Vanderplas' [Python for Data Science](https://github.com/jakevdp/PythonDataScienceHandbook). Jake's repository, by contrast appears to be much closer to emphasizing completeness. For what it is worth, both this course and Jake's book benefit from prior knowledge of Python as found in the Whirlwind tour of Python, which can be found as a series of Python notebooks [over at GitHub](https://github.com/jakevdp/WhirlwindTourOfPython/). 
+Some of the information about programming in the course is partial. It's not meant to be incorrect, but we are definitely omitting or papering over certain topics for brevity's sake. The goal here is to get students the skills and wisdom to put a study together for analysis and publication. In that sense, this course is a little more directed but also more concise than a repository such as Jake Vanderplas' [Python for Data Science](https://github.com/jakevdp/PythonDataScienceHandbook). Jake's repository, by contrast appears to be much closer to emphasizing completeness. For what it is worth, both this course and Jake's book benefit from prior knowledge of Python as found in the Whirlwind tour of Python, which can be read as a series of Python notebooks [over at GitHub](https://github.com/jakevdp/WhirlwindTourOfPython/). 
 
 You will also notice various Muppet-themed examples throughout the course. As a television show, The Muppets offer an extensive amount of accessible data, from episode guides to wikipedia profiles on characters. This can help give is a flavor for high dimensional data while steer a little clear of some complex theoretical issues that are sure to arise in a more focused and sustained project.
 
 ### How to run these files 
-The course is written almost entirely in Jupyter notebooks. We recommend downloading the [Anaconda package for scientific python](https://www.anaconda.com/download/), installing it and then launching the Anaconda Navigator. This navigator provides access to a host of scientific programming tools and particularly to Jupyte rLab. Run Jupyter lab and then navigate to a folder that includes the ```.ipynb``` files.  
+The course is written almost entirely in Jupyter notebooks. We recommend downloading the [Anaconda package for scientific python](https://www.anaconda.com/download/), installing it and then launching the Anaconda Navigator. This navigator provides access to a host of scientific programming tools and particularly to Jupyter Lab. Run Jupyter Lab and then navigate to a folder that includes the ```.ipynb``` files.  
 
 If you do not have Jupyter Lab installed, then you can just click on the files in GitHub which will render them. They will not be interative but you will still be able to read them.
 
